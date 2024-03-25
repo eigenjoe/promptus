@@ -1,3 +1,4 @@
+import Feed from "@components/Feed";
 
 
  const Home = () => {
@@ -9,6 +10,8 @@
         </h1>
  
         <p className="sub_text text-center">Promptus is a simple and elegant way to create and share AI prompts.</p>
+
+        <Feed />
     </section>
   )
 }
